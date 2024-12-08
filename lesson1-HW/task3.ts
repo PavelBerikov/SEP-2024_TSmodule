@@ -58,7 +58,7 @@ let products = [
 for (let i:number = 0; i < products.length; i++) {
     document.write(`<div class='product-card'>`)
     document.write(`<h3>${products[i].title}. Price - ${products[i].price}</h3>`)
-    document.write(`<img src='${products[i].image}'>`)
+    document.write(`<img src='${products[i].image}' alt="${products[i].title}">`)
     document.write(`</div>`)
 }
 /*за допомоги циклу вивести:
