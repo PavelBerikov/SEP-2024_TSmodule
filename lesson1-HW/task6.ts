@@ -218,7 +218,7 @@ let coursesArray:CourseNew[] = [
          ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     )
 ];
-console.log(coursesArray.filter((value:CourseNew) => value.modules.includes('sass')))
-console.log(coursesArray.filter((value:CourseNew) => value.modules.includes('docker')))
+// console.log(coursesArray.filter((value:CourseNew) => value.modules.includes('sass')))
+// console.log(coursesArray.filter((value:CourseNew) => value.modules.includes('docker')))
 
 
